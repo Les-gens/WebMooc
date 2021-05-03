@@ -1,36 +1,43 @@
 {
   "books": [
     {
+      "id": 0,
       "author": 2,
       "title": "Oliver Twist",
       "borrowed_by": 0
     },
     {
+      "id": 1,
       "author": 0,
       "title": "Romeo and Juliet",
       "borrowed_by": 0
     },
     {
+      "id": 2,
       "author": 1,
       "title": "Les Misérables",
-      "borrowed_by": 0
+      "borrowed_by": -1
     }
   ],
   "users": [
     {
+      "id": 0,
       "name": "John Doe",
       "mail": "johndoe@fakemail.net",
-      "has_borrowed": [0, 1, 2]
+      "has_borrowed": [0, 1]
     }
   ],
   "authors": [
     {
+      "id": 0,
       "name": "William Shakespeare"
     },
     {
+      "id": 1,
       "name": "Victor Hugo"
     },
     {
+      "id": 2,
       "name": "Charles Dickens"
     }
   ]
